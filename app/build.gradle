@@ -10,7 +10,7 @@ buildscript {
     }
 
     dependencies {
-        classpath "com.mcxiaoke.packer-ng:plugin:$packer_version"
+        classpath "com.mcxiaoke.packer-ng:plugin:2.0.1"
     }
 }
 
@@ -27,7 +27,7 @@ apply plugin: 'packer'
 
 // https://code.google.com/p/android/issues/detail?id=171089
 dependencies {
-    implementation "com.mcxiaoke.packer-ng:helper:$packer_version"
+    implementation "com.mcxiaoke.packer-ng:helper:2.0.1"
 }
 
 //packer-begin
